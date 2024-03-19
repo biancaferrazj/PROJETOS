@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula02</title>
+    <link rel="stylesheet" href="calculadora.css"
+</head>
+<body>
+    <nav>
+        <ul class="cabeçalho-link">
+            <h2 class="logo">Bia<span>Ferraz</span></h2><!--Logo-->
+            <li><a href="youtubenewvideoportfolio/index.html">Inicio</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+
+            <li><a href="https://api.whatsapp.com/send/?phone=5567996487345&text&type=phone_number&app_absent=0">Contato</a></li>
+        </ul><!--cabeçalho-link-->
+        <a href="https://www.instagram.com/biancaferrazj/" class="btn">Me siga</a>
+    </nav>
+    <header>
+        <h1>Calculadora Maromba</h1>
+    </header>
+
+    <section id="td">
+    <div class="conta">
+        <h1>Adição</h1>
+    <input type="number" id="n1" placeholder="Digite um número"><br>
+    <input type="number" id="n2" placeholder="Digite um número"><br>
+    <button onclick="soma()">Somar</button>
+    <p id="res1"></p>
+    <script type="text/javascript">
+        function soma(){
+            var n1 = Number(document.getElementById("n1").value)
+            var n2 = Number(document.getElementById("n2").value)
+            var res1 = n1 + n2;
+            document.getElementById("res1").innerHTML = res1
+        } 
+    </script>
+    </div>
+
+    <div class="conta">
+        <h1>Subtração</h1>
+    <input type="number" id="n3" placeholder="Digite um número"><br>
+    <input type="number" id="n4" placeholder="Digite um número"><br>
+    <button onclick="sub()">Subtrair</button>
+    <p id="res2"></p>
+    <script type="text/javascript">
+        function sub(){
+            var n3 = Number(document.getElementById("n3").value)
+            var n4 = Number(document.getElementById("n4").value)
+            var res2 = n3 - n4;
+            document.getElementById("res2").innerHTML = res2
+        } 
+    </script>
+    </div>
+
+    <div class="conta">
+        <h1>Multiplicação</h1>
+    <input type="number" id="n5" placeholder="Digite um número"><br>
+    <input type="number" id="n6" placeholder="Digite um número"><br>
+    <button onclick="mult()">Multiplicar</button>
+    <p id="res3"></p>
+    <script type="text/javascript">
+        function mult(){
+            var n5 = Number(document.getElementById("n5").value)
+            var n6 = Number(document.getElementById("n6").value)
+            var res3 = n5 * n6;
+            document.getElementById("res3").innerHTML = res3
+        } 
+    </script>
+    </div>
+    <div class="conta">
+        <h1>Divisão</h1>
+    <input type="number" id="n7" placeholder="Digite um número"><br>
+    <input type="number" id="n8" placeholder="Digite um número"><br>
+    <button onclick="div()">Dividir</button>
+    <p id="res4"></p>
+    <script type="text/javascript">
+        function div(){
+            var n7 = Number(document.getElementById("n7").value)
+            var n8 = Number(document.getElementById("n8").value)
+            var res4 = n7 / n8;
+            document.getElementById("res4").innerHTML = res4
+        } 
+    </script>
+    </div>
+    
+   </script>
+</body>
+</html>

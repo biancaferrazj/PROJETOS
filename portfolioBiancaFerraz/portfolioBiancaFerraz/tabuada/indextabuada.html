@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>gerador de tabuada </h1>
+    <input type="number" id="num1" placeholder="Digite um numero">
+
+     <button onclick="gerartabuada()">gerar tabuada</button>
+    <ul id="tabuada"></ul>
+     <script>
+       function gerartabuada(){
+      let num = document.getElementById("num1").value
+      document.getElementById("tabuada").innerHTML
+      for(let i = 0; i <=10; i = i + 1){
+      let resultado = num * i
+      let elemento = document.createElement("ul")
+      elemento.innerHTML = num + " x " + i +  " = " + resultado
+      document.getElementById("tabuada").append(elemento)
+  } }</script>
+  <style>
+    body {
+              background-color: rgb(196, 18, 92);
+  </style>
+    </body>
+</html>

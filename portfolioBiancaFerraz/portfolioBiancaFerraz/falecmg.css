@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+span{
+    color: #f9004d;
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transform: .4s;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #080808;
+}
+
+.container_form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form_grupo {
+    margin-bottom: 20px;
+}
+
+.form_label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form_input,
+.dropdown,
+.message_input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.radio-btn,
+.check-btn {
+    margin-top: 10px;
+    left: 10em;
+}
+
+.form_message_label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.submit_btn {
+    background-color: #f9004d;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit_btn:hover {
+    background-color: #d70039;
+}
