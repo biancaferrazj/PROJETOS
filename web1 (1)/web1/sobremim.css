@@ -1,0 +1,112 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .profile {
+            font-size: 18px;
+            padding-left: 180px;
+            padding-right: 180px;
+        }
+        header {
+            background-color: #ff02ab;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .search {
+            margin-left: 20px;
+            padding: 5px;
+            border-radius: 20px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+        }
+        
+        .search input[type="text"] {
+            border: none;
+            outline: none;
+            padding: 5px;
+            border-radius: 20px;
+        }
+        
+        .search button {
+            background-color: #ff02ab;;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav li {
+            margin-right: 20px;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .menu-container {
+            display: none;
+            background-color: #333;
+            color: #fff;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        .menu {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .menu li {
+            margin: 0 10px;
+        }
+        
+        .menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .footer {
+            background-color: #ff02ab;
+            text-align: center;
+            padding: 20px;
+        }
